@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Gradient Topbar — Omarchy bar plugin</title>
+  <desc id="description">Editorial illustration of a top bar gradient with fade start at zero and fifty percent. At fifty percent the top half stays filled before fading into the wallpaper.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111823"/>
+      <stop offset=".56" stop-color="#0C141E"/>
+      <stop offset="1" stop-color="#080E17"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#B87472" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#B87472" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#1C2834"/>
+      <stop offset="1" stop-color="#121D29"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="0">
+      <stop stop-color="#FFD1AD"/>
+      <stop offset="1" stop-color="#F29A83"/>
+    </linearGradient>
+    <linearGradient id="wallpaper" x2="1" y2="1">
+      <stop stop-color="#27465C"/>
+      <stop offset=".54" stop-color="#192D43"/>
+      <stop offset="1" stop-color="#243A4A"/>
+    </linearGradient>
+    <linearGradient id="fadeFull" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#EE9F80" stop-opacity="1"/>
+      <stop offset="1" stop-color="#EE9F80" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeHalf" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#EE9F80" stop-opacity="1"/>
+      <stop offset=".5" stop-color="#EE9F80" stop-opacity="1"/>
+      <stop offset="1" stop-color="#EE9F80" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#EAF3F5" stroke-opacity=".03"/>
+    </pattern>
+    <clipPath id="barClips">
+      <rect x="844" y="323" width="584" height="91" rx="11"/>
+      <rect x="844" y="537" width="584" height="91" rx="11"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1230" cy="410" rx="580" ry="520" fill="url(#glow)"/>
+  <path d="M72 116H1528M72 756H1528" stroke="#F5D4C6" stroke-opacity=".15"/>
+
+  <!-- Identity -->
+  <g fill="none" stroke="#F9C2A8" stroke-width="2.4">
+    <circle cx="93" cy="67" r="13"/>
+    <circle cx="110" cy="80" r="13"/>
+  </g>
+  <text x="145" y="81" fill="#F5EEE9" font-family="Noto Sans, sans-serif" font-weight="700" font-size="20" letter-spacing="2.7">GRADIENT TOPBAR</text>
+  <text x="1528" y="79" text-anchor="end" fill="#A8A7AA" font-family="JetBrains Mono, monospace" font-size="17" letter-spacing="1.4">OMARCHY  /  BAR PLUGIN</text>
+
+  <!-- Headline -->
+  <text x="98" y="275" fill="#F5F2F0" font-family="Noto Sans, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Shape the</text>
+  <text x="98" y="373" fill="url(#accent)" font-family="Noto Sans, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">edge.</text>
+  <rect x="101" y="410" width="46" height="3" rx="1.5" fill="#FFBA9C"/>
+  <text x="98" y="477" fill="#D2D0CF" font-family="Noto Sans, sans-serif" font-size="25">Keep the screen edge solid.</text>
+  <text x="98" y="514" fill="#D2D0CF" font-family="Noto Sans, sans-serif" font-size="25">Choose where the fade begins.</text>
+  <text x="99" y="619" fill="#BAA4A1" font-family="JetBrains Mono, monospace" font-size="16" letter-spacing="1">SOLID FIRST. CLEAR AFTER.</text>
+  <path d="M100 642H459" stroke="#BAA4A1" stroke-opacity=".6"/>
+  <path d="m449 635 10 7-10 7" fill="none" stroke="#BAA4A1" stroke-width="1.5"/>
+
+  <!-- Enlarged bar study -->
+  <rect x="785" y="175" width="713" height="540" rx="23" fill="#02070C" opacity=".5"/>
+  <rect x="780" y="169" width="713" height="540" rx="23" fill="url(#panel)" stroke="#F8C4AB" stroke-opacity=".22"/>
+  <circle cx="819" cy="208" r="5" fill="#958E91"/>
+  <circle cx="839" cy="208" r="5" fill="#958E91"/>
+  <circle cx="859" cy="208" r="5" fill="#958E91"/>
+  <text x="888" y="214" fill="#D5C6C0" font-family="JetBrains Mono, monospace" font-size="15" letter-spacing="1.1">BAR STUDY</text>
+  <text x="1456" y="214" text-anchor="end" fill="#B4A09B" font-family="JetBrains Mono, monospace" font-size="14">TOP EDGE / ENLARGED</text>
+  <path d="M780 242H1493" stroke="#F8C4AB" stroke-opacity=".13"/>
+
+  <!-- The same wallpaper and widgets beneath two different alpha profiles -->
+  <rect x="815" y="270" width="643" height="177" rx="16" fill="#101B28" stroke="#F8C4AB" stroke-opacity=".14"/>
+  <text x="845" y="305" fill="#C9AFA6" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">01  /  FADE START 0%</text>
+  <rect x="844" y="323" width="584" height="91" rx="11" fill="url(#wallpaper)"/>
+  <rect x="815" y="484" width="643" height="177" rx="16" fill="#101B28" stroke="#F8C4AB" stroke-opacity=".14"/>
+  <text x="845" y="519" fill="#C9AFA6" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">02  /  FADE START 50%</text>
+  <rect x="844" y="537" width="584" height="91" rx="11" fill="url(#wallpaper)"/>
+  <g clip-path="url(#barClips)">
+    <path d="M990 414 1130 323h130L1120 414M990 628l140-91h130l-140 91" fill="#45687B" opacity=".55"/>
+    <path d="M1195 414 1335 323h70l-140 91M1195 628l140-91h70l-140 91" fill="#5B6675" opacity=".42"/>
+    <rect x="844" y="323" width="584" height="91" fill="url(#fadeFull)"/>
+    <rect x="844" y="537" width="584" height="91" fill="url(#fadeHalf)"/>
+    <path d="M844 323H1428M844 537H1428" stroke="#FFE0CC" stroke-opacity=".65"/>
+    <path d="M844 583H1428" stroke="#FFE0CC" stroke-opacity=".4" stroke-dasharray="4 6"/>
+  </g>
+  <!-- Bar widgets remain on top of both backgrounds -->
+  <g fill="#FFF6EE" opacity=".95">
+    <circle cx="887" cy="350" r="5"/><rect x="903" y="345" width="23" height="10" rx="5"/><circle cx="942" cy="350" r="5"/>
+    <circle cx="887" cy="564" r="5"/><rect x="903" y="559" width="23" height="10" rx="5"/><circle cx="942" cy="564" r="5"/>
+  </g>
+  <g fill="none" stroke="#FFF6EE" stroke-width="2" stroke-linecap="round">
+    <circle cx="1301" cy="350" r="7"/><path d="M1329 344v12m-6-6h12"/>
+    <circle cx="1301" cy="564" r="7"/><path d="M1329 558v12m-6-6h12"/>
+  </g>
+  <text x="1399" y="356" fill="#FFF6EE" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="17">21:34</text>
+  <text x="1399" y="570" fill="#FFF6EE" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="17">21:34</text>
+  <text x="1441" y="687" text-anchor="end" fill="#B9A8A2" font-family="JetBrains Mono, monospace" font-size="13">WALLPAPER SHOWS THROUGH THE FADE ↓</text>
+
+  <!-- Feature strip -->
+  <text x="100" y="810" fill="#F4EFED" font-family="Noto Sans, sans-serif" font-size="27" font-weight="700">0–100%</text>
+  <text x="100" y="838" fill="#B4A7A7" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">FADE START</text>
+  <path d="M340 787V842" stroke="#F5D4C6" stroke-opacity=".18"/>
+  <text x="376" y="810" fill="#F4EFED" font-family="Noto Sans, sans-serif" font-size="27" font-weight="700">1–100%</text>
+  <text x="376" y="838" fill="#B4A7A7" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">FADE LENGTH</text>
+  <path d="M615 787V842" stroke="#F5D4C6" stroke-opacity=".18"/>
+  <text x="651" y="810" fill="#F4EFED" font-family="Noto Sans, sans-serif" font-size="27" font-weight="700">4 edges</text>
+  <text x="651" y="838" fill="#B4A7A7" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">SCREEN-AWARE</text>
+  <text x="1491" y="825" text-anchor="end" fill="#F7C2A8" font-family="JetBrains Mono, monospace" font-size="17" letter-spacing=".4">voyagen.oma-gradient-topbar ↗</text>
+</svg>

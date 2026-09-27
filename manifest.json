@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "voyagen.oma-gradient-topbar",
+  "name": "Omarchy Gradient Topbar",
+  "version": "1.0.0",
+  "author": "Voyagen",
+  "license": "MIT",
+  "description": "An Omarchy bar that fades from black at the screen edge to transparent toward the desktop",
+  "kinds": ["bar"],
+  "entryPoints": {
+    "bar": "Bar.qml"
+  }
+}

@@ -1,0 +1,8 @@
+# Local dependencies and test output
+node_modules/
+coverage/
+
+# Temporary files
+*.log
+*~
+.DS_Store
